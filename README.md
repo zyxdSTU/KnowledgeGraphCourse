@@ -2,7 +2,8 @@
 东南大学《知识图谱》研究生课程  
 时间：2019年春季（2月下旬\~5月中旬）  
 每周五下午2:00\~4:30  
-地点：东南大学九龙湖校区, 纪忠楼Y205
+地点：东南大学九龙湖校区, 纪忠楼Y205  
+答疑/讨论/建议：请致信 pwang AT seu.edu.cn
 
 
 # 课程内容
@@ -11,7 +12,7 @@
 1.2 知识图谱 VS 深度学习  
 1.3 知识图谱 VS 关系数据库 VS 传统专家库  
 1.4 知识图谱本质和核心价值  
-1.5 知识图谱技术体系    
+1.5 知识图谱技术体系  
 1.6 典型知识图谱  
 1.7 知识图谱应用场景  
 **课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-1知识图谱概论A.pdf)   [partB](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-1知识图谱概论B.pdf)   [partC](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-1知识图谱概论C.pdf)
@@ -46,6 +47,7 @@
 4.3 面向结构化数据的知识抽取  
 4.4 面向半结构化数据的知识抽取  
 4.5 面向非机构化数据的知识抽取  
+
 **课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-4知识抽取-问题和方法.pdf)  
 
 ## 第5讲 知识抽取:数据采集（2019-3-29）
@@ -53,11 +55,44 @@
 + 爬虫原理  
 + 请求和响应   
 + 多线程并行爬取   
-+ 反爬机制应对   
++ 反爬机制应对  
 5.2 数据采集实践  
 + 百科 论坛 社交网络等爬取实践  
 
+**课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-5知识抽取-数据获取.pdf)    
+
 ## 第6讲 知识抽取:实体识别（2019-3-29）
+6.1 实体识别基本概念  
+6.2 基于规则和词典的实体识别方法  
+6.3 基于机器学习的实体识别方法  
+6.4 基于深度学习的实体识别方法  
+6.5 基于半监督学习的实体识别方法  
+6.6 基于迁移学习的实体识别方法  
+6.7 基于预训练的实体识别方法  
+
+**课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-6知识抽取-实体识别.pdf)  
+
+## 第7讲 知识抽取:关系抽取（2019-4-19，2019-4-26）
+7.1 关系基本概念  
+7.2 语义关系  
+7.3 关系抽取的特征  
+7.4 关系抽取数据集  
+7.5 基于监督学习的关系抽取方法  
+7.6 基于无监督学习的关系抽取方法  
+7.7 基于远程监督的关系抽取方法  
+7.8 基于深度学习/强化学习的关系抽取方法
+
+**课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-7知识抽取-关系抽取.pdf)  
+
+## 第8讲 知识抽取:事件抽取（2019-3-29）
+8.1 事件抽取基本概念  
+8.2 基于规则和模板的事件抽取方法  
+8.3 基于机器学习的事件抽取方法  
+8.4 基于深度学习的事件抽取方法  
+8.5 基于知识库的事件抽取方法  
+8.6 基于强化学习的事件抽取方法  
+
+**课件下载**:[partA](https://github.com/npubird/KnowledgeGraphCourse/blob/master/pub-8知识抽取-事件抽取.pdf)  
 
 # 附录A：经典文献选读
 
@@ -103,7 +138,11 @@
 
 
 * **事件抽取**  
-
+1. Chen Y, Xu L, Liu K, et al. [Event extraction via dynamic multi-pooling convolutional neural networks](http://www.aclweb.org/anthology/P15-1017). ACL2015, 1: 167-176.  
+2. Nguyen T H, Grishman R. [Event detection and domain adaptation with convolutional neural networks](http://www.aclweb.org/anthology/P15-2060). ACL2015, 2: 365-371.  
+3. Hogenboom F, Frasincar F, Kaymak U, et al. [An overview of event extraction from text](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.369.7040&rep=rep1&type=pdf). DeRiVE2011.  
+4. Narasimhan K, Yala A, Barzilay R. [Improving information extraction by acquiring external evidence with reinforcement learning](https://arxiv.org/pdf/1603.07954.pdf). EMNLP2016.  
+5. Nguyen T H, Cho K, Grishman R. [Joint event extraction via recurrent neural networks](http://www.aclweb.org/anthology/N16-1034). NAACL2016: 300-309.  
 
 ## 知识融合  
 1. Shvaiko P, Euzenat J. [Ontology matching: state of the art and future challenges](https://hal.inria.fr/hal-00917910/document). IEEE Transactions on knowledge and data engineering, 2013, 25(1): 158-176.  
@@ -126,18 +165,81 @@
 18. Ngomo A C N, Auer S. [LIMES—a time-efficient approach for large-scale link discovery on the web of data](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI11/paper/viewFile/3125/3692). IJCAI2011.  
 
  
-
-
 ## 知识图谱嵌入  
+* **---Review---**  
 1. Wang Q, Mao Z, Wang B, et al. [Knowledge graph embedding: A survey of approaches and applications](http://download.xuebalib.com/3at6CEQL3eBi.pdf). IEEE Transactions on Knowledge and Data Engineering, 2017, 29(12): 2724-2743.  
-2. Bordes A, Usunier N, Garcia-Duran A, et al. [Translating embeddings for modeling multi-relational data](http://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf). NIPS2013: 2787-2795.  
-3. Mikolov T, Sutskever I, Chen K, et al. [Distributed representations of words and phrases and their compositionality](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf). NIPS2013: 3111-3119.  
-4. Lin Y, Liu Z, Sun M, et al. [Learning entity and relation embeddings for knowledge graph completion](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewFile/9571/9523). AAAI2015.  
-5. Wang Z, Zhang J, Feng J, et al. [Knowledge graph embedding by translating on hyperplanes](https://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/viewFile/8531/8546). AAAI2014.  
-6. Wang Z, Zhang J, Feng J, et al. [Knowledge graph and text jointly embedding](http://www.aclweb.org/anthology/D14-1167). EMNLP2014: 1591-1601.  
-7. Ji G, He S, Xu L, et al. [Knowledge graph embedding via dynamic mapping matrix](http://www.aclweb.org/anthology/P15-1067). ACL2015: 687-696.  
-  
+2. 刘知远, 孙茂松, 林衍凯, 等. [知识表示学习研究进展](http://crad.ict.ac.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=3099). 计算机研究与发展, 2016, 53(2): 247-261.  
 
+* **---Basic Models---**  
+1. Turian J, Ratinov L, Bengio Y. [Word representations: A simple and general method for semi-supervised learning](https://aclanthology.info/pdf/P/P10/P10-1040.pdf). Proceedings of the 48th annual meeting of the association for computational linguistics. Association for Computational Linguistics, 2010: 384-394. (**one-hot**)  
+2. Bordes A, Glorot X, Weston J, et al. [Joint learning of words and meaning representations for open-text semantic parsing](http://proceedings.mlr.press/v22/bordes12/bordes12.pdf). Artificial Intelligence and Statistics. 2012: 127-135. (**UM**)  
+3. Bordes A, Weston J, Collobert R, et al. [Learning structured embeddings of knowledge bases](https://www.aaai.org/ocs/index.php/AAAI/AAAI11/paper/download/3659/3898). AAAI. 2011. (**SE**)  
+4. Mikolov T, Sutskever I, Chen K, et al. [Distributed representations of words and phrases and their compositionality](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf). NIPS2013: 3111-3119.  
+
+* **---Translation-based Models(Basic Models)---**  
+4. Bordes A, Usunier N, Garcia-Duran A, et al. [Translating embeddings for modeling multi-relational data](http://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf). NIPS2013: 2787-2795.(**TransE**)  
+5. Wang Z, Zhang J, Feng J, et al. [Knowledge graph embedding by translating on hyperplanes](https://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/viewFile/8531/8546). AAAI2014.(**TransH**)    
+6. Lin Y, Liu Z, Sun M, et al. [Learning entity and relation embeddings for knowledge graph completion](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewFile/9571/9523). AAAI2015.(**TransR/CTransR**)  
+7. Ji G, He S, Xu L, et al. [Knowledge graph embedding via dynamic mapping matrix](http://www.aclweb.org/anthology/P15-1067). ACL2015: 687-696. (**TransD**)  
+8. Ji G, Liu K, He S, et al. [Knowledge graph completion with adaptive sparse transfer matrix](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewPDFInterstitial/11982/11693). AAAI. 2016. (**TansSparse**)  
+
+* **---Translation-based Models(Translation Requirements Relaxing)---**  
+9. Fan M, Zhou Q, Chang E, et al. [Transition-based knowledge graph embedding with relational mapping properties](https://www.aclweb.org/anthology/Y14-1039). Proceedings of the 28th Pacific Asia Conference on Language, Information and Computing. 2014. (**TransM**)  
+10.  Xiao H, Huang M, Zhu X. From one point to a manifold: [Knowledge graph embedding for precise link prediction](https://arxiv.org/pdf/1512.04792). arXiv preprint arXiv:1512.04792, 2015. (**ManifoldE**)  
+11. Feng J, Huang M, Wang M, et al.[ Knowledge graph embedding by flexible translation](https://www.aaai.org/ocs/index.php/KR/KR16/paper/viewPDFInterstitial/12887/12520). Fifteenth International Conference on the Principles of Knowledge Representation and Reasoning. 2016.  (**TransF**)  
+12. Xiao H, Huang M, Hao Y, et al.[ TransA: An adaptive approach for knowledge graph embedding](https://arxiv.org/pdf/1509.05490). arXiv preprint arXiv:1509.05490, 2015. (**TransA**)  
+
+* **---Translation-based Models(Gaussian Distribution Models)---**  
+13. He S, Liu K, Ji G, et al. [Learning to represent knowledge graphs with gaussian embedding](http://ir.ia.ac.cn/bitstream/173211/11475/1/sig-alternate.pdf). Proceedings of the 24th ACM International on Conference on Information and Knowledge Management. ACM, 2015: 623-632. (**KB2E**)  
+14. Xiao H, Huang M, Zhu X. [TransG: A generative model for knowledge graph embedding](https://www.aclweb.org/anthology/P16-1219). Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2016, 1: 2316-2325. （**TransG**）
+
+* **---Semantic Matching Models(Matrix Factorization Models)---**  
+15. Jenatton R, Roux N L, Bordes A, et al. [A latent factor model for highly multi-relational data](https://papers.nips.cc/paper/4744-a-latent-factor-model-for-highly-multi-relational-data.pdf). NIPS. 2012: 3167-3175. (**LFM**)  
+16. Nickel M, Tresp V, Kriegel H P. [A Three-Way Model for Collective Learning on Multi-Relational Data](http://www.cip.ifi.lmu.de/~nickel/data/slides-icml2011.pdf). ICML. 2011, 11: 809-816. (**RESCAL**)  
+17. Yang B, Yih W, He X, et al. [Embedding entities and relations for learning and inference in knowledge bases](https://arxiv.org/pdf/1412.6575). arXiv preprint arXiv:1412.6575, 2014. (**DistMult**)  
+18. Nickel M, Rosasco L, Poggio T. [Holographic embeddings of knowledge graphs](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewPDFInterstitial/12484/11828). AAAI. 2016. (**HolE**)  
+19. Trouillon T, Welbl J, Riedel S, et al. [Complex embeddings for simple link prediction](http://www.jmlr.org/proceedings/papers/v48/trouillon16.pdf). International Conference on Machine Learning. 2016: 2071-2080. (**ComplEx**)  
+20. Liu H, Wu Y, Yang Y. [Analogical inference for multi-relational embeddings](https://arxiv.org/pdf/1705.02426). Proceedings of the 34th International Conference on Machine Learning-Volume 70. JMLR. org, 2017: 2168-2178. (**ANALOGY**)  
+
+* **---Semantic Matching Models(Neural Network Models)---**  
+21. Socher R, Chen D, Manning C D, et al. [Reasoning with neural tensor networks for knowledge base completion](https://papers.nips.cc/paper/5028-reasoning-with-neural-tensor-networks-for-knowledge-base-completion.pdf). NIPS. 2013: 926-934. (**SLM**)  
+22. Bordes A, Glorot X, Weston J, et al. [A semantic matching energy function for learning with multi-relational data](https://link.springer.com/article/10.1007/s10994-013-5363-6). Machine Learning, 2014, 94(2): 233-259. (**SME**)  
+23. Socher R, Chen D, Manning C D, et al. [Reasoning with neural tensor networks for knowledge base completion](https://papers.nips.cc/paper/5028-reasoning-with-neural-tensor-networks-for-knowledge-base-completion.pdf). NIPS. 2013: 926-934. (**NTN**)  
+24. Dong X, Gabrilovich E, Heitz G, et al.[ Knowledge vault: A web-scale approach to probabilistic knowledge fusion](https://ai.google/research/pubs/pub45634.pdf). Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2014: 601-610. (**MLP**)  
+25. Liu Q, Jiang H, Evdokimov A, et al. [Probabilistic reasoning via deep learning: Neural association models](https://arxiv.org/pdf/1603.07704). arXiv preprint arXiv:1603.07704, 2016. (**NAM**)  
+26. Dettmers T, Minervini P, Stenetorp P, et al. [Convolutional 2d knowledge graph embeddings](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/17366/15884). AAAI. 2018. (**ConvE**)
+
+* **---Multi-source Information Fusion Models(Entity Type)---**  
+27. Guo S, Wang Q, Wang B, et al. [Semantically smooth knowledge graph embedding](https://www.aclweb.org/anthology/P15-1009). Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). 2015, 1: 84-94. (**SSE**)  
+28. Xie R, Liu Z, Sun M. [Representation Learning of Knowledge Graphs with Hierarchical Types](http://nlp.csai.tsinghua.edu.cn/~xrb/publications/IJCAI-16_type.pdf). IJCAI. 2016: 2965-2971. (**TKRL**)  
+
+* **---Multi-source Information Fusion Models(Relation Paths)---**  
+29. Lin Y, Liu Z, Luan H, et al. [Modeling relation paths for representation learning of knowledge bases](https://arxiv.org/pdf/1506.00379). arXiv preprint arXiv:1506.00379, 2015. (**PTransE**)  
+30. Dong X, Gabrilovich E, Heitz G, et al. [Knowledge vault: A web-scale approach to probabilistic knowledge fusion](https://ai.google/research/pubs/pub45634.pdf). Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2014: 601-610. (**MLP+PRA**)  
+31. Nickel M, Jiang X, Tresp V. [Reducing the rank in relational factorization models by including observable patterns](http://papers.nips.cc/paper/5448-reducing-the-rank-in-relational-factorization-models-by-including-observable-patterns.pdf). NIPS. 2014: 1179-1187. (**PRA+RESCAL**)  
+
+* **---Multi-source Information Fusion Models(Textual Descriptions)---**  
+32. Socher R, Chen D, Manning C D, et al. [Reasoning with neural tensor networks for knowledge base completion](https://papers.nips.cc/paper/5028-reasoning-with-neural-tensor-networks-for-knowledge-base-completion.pdf). NIPS. 2013: 926-934. (**NTN**)  
+33. Xie R, Liu Z, Jia J, et al. [Representation learning of knowledge graphs with entity descriptions](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12216/12004). AAAI. 2016. (**DKRL**)  
+34. Xiao H, Huang M, Meng L, et al. [SSP: semantic space projection for knowledge graph embedding with text descriptions](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewPDFInterstitial/14306/14084). AAAI. 2017. (**SSP**)  
+35. Wang Z, Li J Z. [Text-Enhanced Representation Learning for Knowledge Graph](http://qngw2014.bj.bcebos.com/upload/2016/04/%E7%8E%8B%E5%BF%97%E5%88%9A-Text-enhanced%20Representation%20Learning%20for%20Knowledge%20Graph.pdf). IJCAI. 2016: 1293-1299. (**TEKE**)  
+36. Wang Z, Zhang J, Feng J, et al. [Knowledge graph and text jointly embedding](
+https://www.aclweb.org/anthology/D14-1167). EMNLP. 2014: 1591-1601.  
+
+* **---Multi-source Information Fusion Models(Logical Rules)---**  
+37. Wang Q, Wang B, Guo L. [Knowledge base completion using embeddings and rules](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/download/10798/10921). IJCAI. 2015.  
+38. Guo S, Wang Q, Wang L, et al. [Jointly embedding knowledge graphs and logical rules](https://www.aclweb.org/anthology/D16-1019). EMNLP. 2016: 192-202. (**KALE**)  
+39. Guo S, Wang Q, Wang L, et al. [Knowledge graph embedding with iterative guidance from soft rules](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16369/16011). AAAI. 2018. (**RUGE**)  
+40. Ding B, Wang Q, Wang B, et al. [Improving knowledge graph embedding using simple constraints](https://arxiv.org/pdf/1805.02408). arXiv preprint arXiv:1805.02408, 2018.
+
+* **---Multi-source Information Fusion Models(Entity Attributes)---**  
+41. Nickel M, Tresp V, Kriegel H P. [Factorizing yago: scalable machine learning for linked data](http://www.dbs.ifi.lmu.de/~tresp/papers/p271.pdf). Proceedings of the 21st international conference on World Wide Web. ACM, 2012: 271-280.
+
+* **---Multi-source Information Fusion Models(Temporal Information)---**  
+42. Jiang T, Liu T, Ge T, et al. [Encoding temporal information for time-aware link prediction](https://www.aclweb.org/anthology/D16-1260). Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing. 2016: 2350-2354.  
+
+* **---Multi-source Information Fusion Models(Graph Structure)---** 
+43. Feng J, Huang M, Yang Y. [GAKE: graph aware knowledge embedding](https://aclanthology.info/pdf/C/C16/C16-1062.pdf). COLING. 2016: 641-651. (**GAKE**)  
 
 ## 知识推理/知识挖掘  
 1. Nickel M, Tresp V, Kriegel H P. [A Three-Way Model for Collective Learning on Multi-Relational Data](http://www.cip.ifi.lmu.de/~nickel/data/slides-icml2011.pdf). ICML2011: 809-816.  
@@ -185,7 +287,65 @@
 18. Shi W, Yu Z. [Sentiment Adaptive End-to-End Dialog Systems](http://www.aclweb.org/anthology/P18-1140). ACL2018, 1: 1509-1519.  
 19. Zhang S, Dinan E, Urbanek J, et al. [Personalizing Dialogue Agents: I have a dog, do you have pets too?](http://www.aclweb.org/anthology/P18-1205) ACL2018, 1: 2204-2213.  
 20. Wei Z, Liu Q, Peng B, et al. [Task-oriented dialogue system for automatic diagnosis](http://www.aclweb.org/anthology/P18-2033). ACL2018, 2: 201-207.  
-21. Sungjoon Park, Donghyun Kim and Alice Oh. [Conversation Model Fine-Tuning for Classifying Client Utterances in Counseling Dialogues](). NAACL2019.
+21. Sungjoon Park, Donghyun Kim and Alice Oh. [Conversation Model Fine-Tuning for Classifying Client Utterances in Counseling Dialogues](). NAACL2019.  
+22. Sebastian R. [Neural Transfer Learning for Natural Language Processing](http://ruder.io/thesis/neural_transfer_learning_for_nlp.pdf). PhD Thesis. National University of Ireland, 2019.
+
+* **---实体识别(ACL)---** 
+23. Parvez M R, Chakraborty S, Ray B, et al. [Building language models for text with named entities](https://arxiv.org/pdf/1805.04836.pdf). arXiv preprint arXiv:1805.04836, 2018.  
+24. Lin Y, Yang S, Stoyanov V, et al. [A multi-lingual multi-task architecture for low-resource sequence labeling](http://www.aclweb.org/anthology/P18-1074). Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2018, 1: 799-809.  
+25. Xu H, Liu B, Shu L, et al. [Double embeddings and cnn-based sequence labeling for aspect extraction](https://arxiv.org/pdf/1805.04601.pdf). arXiv preprint arXiv:1805.04601, 2018.  
+26. Ye Z X, Ling Z H. [Hybrid semi-markov crf for neural sequence labeling](https://arxiv.org/pdf/1805.03838.pdf). arXiv preprint arXiv:1805.03838, 2018.  
+27. Yang J, Zhang Y. [Ncrf++: An open-source neural sequence labeling toolkit](https://arxiv.org/pdf/1806.05626.pdf). arXiv preprint arXiv:1806.05626, 2018.  
+
+* **---实体识别(NAACL)---** 
+28. Ju M, Miwa M, Ananiadou S. [A neural layered model for nested named entity recognition](http://www.aclweb.org/anthology/N18-1131). Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers). 2018, 1: 1446-1459.  
+29. Wang Z, Qu Y, Chen L, et al. [Label-aware double transfer learning for cross-specialty medical named entity recognition](https://arxiv.org/pdf/1804.09021.pdf). NAACL2018.  
+30. Moon S, Neves L, Carvalho V. [Multimodal named entity recognition for short social ../media posts](https://arxiv.org/pdf/1802.07862.pdf). NAACL2018.  
+31. Katiyar A, Cardie C. [Nested named entity recognition revisited](http://www.aclweb.org/anthology/N18-1079). NAACL2018: 861-871.
+
+* **---实体识别(EMNLP)---** 
+32. Cao P, Chen Y, Liu K, et al. [Adversarial Transfer Learning for Chinese Named Entity Recognition with Self-Attention Mechanism](http://www.aclweb.org/anthology/D18-1017).EMNLP2018: 182-192.  
+33. Xie J, Yang Z, Neubig G, et al. [Neural cross-lingual named entity recognition with minimal resources](https://arxiv.org/pdf/1808.09861.pdf). EMNLP2018.  
+34. Lin B Y, Lu W. [Neural adaptation layers for cross-domain named entity recognition](https://arxiv.org/pdf/1810.06368.pdf). EMNLP2018.  
+35. Shang J, Liu L, Ren X, et al. [Learning Named Entity Tagger using Domain-Specific Dictionary](https://arxiv.org/pdf/1809.03599.pdf). EMNLP2018.  
+36. Greenberg N, Bansal T, Verga P, et al. [Marginal Likelihood Training of BiLSTM-CRF for Biomedical Named Entity Recognition from Disjoint Label Sets](http://www.aclweb.org/anthology/D18-1306). EMNLP2018: 2824-2829.  
+37. Sohrab M G, Miwa M. [Deep Exhaustive Model for Nested Named Entity Recognition](http://www.aclweb.org/anthology/D18-1309).EMNLP2018: 2843-2849.  
+38. Yu X, Mayhew S, Sammons M, et al. [On the Strength of Character Language Models for Multilingual Named Entity Recognition](https://arxiv.org/pdf/1809.05157.pdf). EMNLP2018.  
+
+* **---实体识别(COLING)---** 
+39. Mai K, Pham T H, Nguyen M T, et al. [An empirical study on fine-grained named entity recognition](http://www.aclweb.org/anthology/C18-1060). Proceedings of the 27th International Conference on Computational Linguistics. 2018: 711-722.  
+40. Nagesh A, Surdeanu M. [An Exploration of Three Lightly-supervised Representation Learning Approaches for Named Entity Classification](http://www.aclweb.org/anthology/C18-1196). Proceedings of the 27th International Conference on Computational Linguistics. 2018: 2312-2324.  
+41. Bhutani N, Qian K, Li Y, et al. [Exploiting Structure in Representation of Named Entities using Active Learning](http://www.aclweb.org/anthology/C18-1058). Proceedings of the 27th International Conference on Computational Linguistics. 2018: 687-699.  
+42. Yadav V, Bethard S. [A survey on recent advances in named entity recognition from deep learning models](http://www.aclweb.org/anthology/C18-1182). Proceedings of the 27th International Conference on Computational Linguistics. 2018: 2145-2158.  
+43. Güngör O, Üsküdarlı S, Güngör T. [Improving Named Entity Recognition by Jointly Learning to Disambiguate Morphological Tags](https://arxiv.org/pdf/1807.06683.pdf). arXiv preprint arXiv:1807.06683, 2018.  
+44. Chen L, Moschitti A. [Learning to Progressively Recognize New Named Entities with Sequence to Sequence Models](http://www.aclweb.org/anthology/C18-1185). Proceedings of the 27th International Conference on Computational Linguistics. 2018: 2181-2191.  
+45. Ghaddar A, Langlais P. [Robust lexical features for improved neural network named-entity recognition](https://arxiv.org/pdf/1806.03489.pdf). COLING2018.  
+
+* **---事件抽取(ACL)---** 
+46. Choubey P K, Huang R. [Improving Event Coreference Resolution by Modeling Correlations between Event Coreference Chains and Document Topic Structures](http://www.aclweb.org/anthology/P18-1045).Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2018, 1: 485-495.  
+47. Lin H, Lu Y, Han X, et al. [Nugget Proposal Networks for Chinese Event Detection](https://arxiv.org/pdf/1805.00249.pdf). ACL2018.  
+48. Huang L, Ji H, Cho K, et al. [Zero-shot transfer learning for event extraction](https://arxiv.org/pdf/1707.01066.pdf). ACL2017.  
+49. Hong Y, Zhou W, Zhang J, et al. [Self-regulation: Employing a Generative Adversarial Network to Improve Event Detection](http://www.aclweb.org/anthology/P18-1048). Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2018, 1: 515-526.  
+50. Zhao Y, Jin X, Wang Y, et al. [Document embedding enhanced event detection with hierarchical and supervised attention](http://www.aclweb.org/anthology/P18-2066). Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers). 2018, 2: 414-419.  
+51. Yang H, Chen Y, Liu K, et al. [DCFEE: A Document-level Chinese Financial Event Extraction System based on Automatically Labeled Training Data](http://www.aclweb.org/anthology/P18-4009). ACL2018, System Demonstrations, 2018: 50-55.  
+
+* **---事件抽取(NAACL)---** 
+52. Ferguson J, Lockard C, Weld D S, et al. [Semi-Supervised Event Extraction with Paraphrase Clusters](https://arxiv.org/pdf/1808.08622.pdf). ACL2018.  
+
+* **---事件抽取(EMNLP)---** 
+53. Orr J W, Tadepalli P, Fern X. [Event Detection with Neural Networks: A Rigorous Empirical Evaluation](https://arxiv.org/pdf/1808.08504.pdf). EMNLP2018.  
+54. Liu S, Cheng R, Yu X, et al. [Exploiting Contextual Information via Dynamic Memory Network for Event Detection](https://arxiv.org/pdf/1810.03449.pdf). EMNLP2018.  
+55. Liu X, Luo Z, Huang H. [Jointly multiple events extraction via attention-based graph information aggregation](https://arxiv.org/pdf/1809.09078.pdf). EMNLP2018.  
+56. Chen Y, Yang H, Liu K, et al. [Collective Event Detection via a Hierarchical and Bias Tagging Networks with Gated Multi-level Attention Mechanisms](http://www.aclweb.org/anthology/D18-1158). EMNLP2018: 1267-1276.  
+57. Lu W, Nguyen T H. [Similar but not the Same: Word Sense Disambiguation Improves Event Detection via Neural Representation Matching](http://www.aclweb.org/anthology/D18-1517). Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing. 2018: 4822-4828.
+
+* **---事件抽取(COLING)---** 
+58. Araki J, Mitamura T. [Open-Domain Event Detection using Distant Supervision](http://www.aclweb.org/anthology/C18-1075). Proceedings of the 27th International Conference on Computational Linguistics. 2018: 878-891.  
+59. Muis A O, Otani N, Vyas N, et al. [Low-resource Cross-lingual Event Type Detection via Distant Supervision with Minimal Effort](http://www.aclweb.org/anthology/C18-1007). Proceedings of the 27th International Conference on Computational Linguistics. 2018: 70-82.  
+60. Kazeminejad G, Bonial C, Brown S W, et al. [Automatically Extracting Qualia Relations for the Rich Event Ontology](http://www.aclweb.org/anthology/C18-1224). Proceedings of the 27th International Conference on Computational Linguistics. 2018: 2644-2652.  
+61. Liu Z, Mitamura T, Hovy E. [Graph-Based Decoding for Event Sequencing and Coreference Resolution](https://arxiv.org/pdf/1806.05099.pdf). COLING2018.  
+
+
 
 
 
